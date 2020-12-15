@@ -7,7 +7,17 @@ RepTime combined the function of read depth calculation, GC correction, and repl
 ```
 git clone https://github.com/deepomicslab/RepTime RepTime
 ```
+## Requirements
+```
+SamTools
+Python3
 
+Python packages:
+NumPy
+Pandas
+sklearn
+csaps
+```
 ## Usage
 ```
 usage: RepTime.py [-h] [-i INPUT] [-c CHR] [-r REF] [-u UNIQUE]
