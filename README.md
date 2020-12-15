@@ -3,12 +3,15 @@ RepTime calculates the replication timing of WGS data.
 
 RepTime combined the function of read depth calculation, GC correction, and replication timing smooth together in single-step command.
 
-# Install
+## Install
+```
 git clone https://github.com/deepomicslab/RepTime RepTime
+```
 
-# Usage
+## Usage
+```
 usage: RepTime.py [-h] [-i INPUT] [-c CHR] [-r REF] [-u UNIQUE]
-                       [-w WINDOW] [-o OUTDIR] [-p PROCESS] [-s STEP]
+                  [-w WINDOW] [-o OUTDIR] [-p PROCESS] [-s STEP]
 
 optional arguments:
   -h, --help            show this help message and exit
@@ -30,3 +33,4 @@ optional arguments:
                         the number of process
   -s STEP, --step STEP  the step of repTime.1:mpileup; 2:GC; 3:sliding window;
                         4:filter; 5:smooth
+```
