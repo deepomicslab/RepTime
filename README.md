@@ -44,3 +44,8 @@ optional arguments:
   -s STEP, --step STEP  the step of repTime.1:mpileup; 2:GC; 3:sliding window;
                         4:filter; 5:smooth
 ```
+
+## Example
+```
+python RepTime.py -i your_input.bam -r hg19.fasta
+```
