@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-@author: WANG
-"""
-
-###function###
 import sys
 import gzip
 import time
@@ -44,7 +38,6 @@ def getGcContentForEachBase(chromosome, region_list, wing, myfh):
         print_line = [str(x) for x in [chromosome, bs[0], bs[1], bs[2], G_C/window]]
         print("\t".join(print_line),file=myfh)
 
-#def runmpileupGC(file,wing, uniq_region):
 def runmpileupGC(bam, ref, chr, outdir, wing, unique=False,
                  uniq_dir =  binpath+'/hg19.uniquely.mappable.regions',
                  samtools = binpath+'/samtools'):
