@@ -3,7 +3,7 @@ import argparse
 parser = argparse.ArgumentParser(description="Process args")
 parser.add_argument('-i', '--input', type = str, action='store', 
                     help='input bam file')
-parser.add_argument('--samtools', type = str, action='store', default='NA'
+parser.add_argument('--samtools', type = str, action='store', default='NA',
                     help='the path of SamTools')
 parser.add_argument("-c", '--chr', type = str, action='store', default = 'chr1-22', 
                     help="chr for analysis.For example, \
